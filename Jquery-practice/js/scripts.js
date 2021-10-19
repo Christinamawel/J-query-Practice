@@ -21,4 +21,12 @@ $(document).ready(function() {
     $("body").removeClass();
     $("body").addClass("dark-mode");
   });
+
+  $("#cat-btn").click(function() {
+    $("#cat-side").prepend("<li>Meow!</li>")
+  });
+  
+  $("#dog-btn").click(function() {
+    $("#dog-side").prepend("<li>Wolf!</li>")
+  });
 });
