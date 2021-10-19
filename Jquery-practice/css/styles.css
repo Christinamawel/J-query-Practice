@@ -1,0 +1,23 @@
+img {
+  width: 40%;
+  box-sizing:border-box;
+}
+
+img:hover {
+  cursor: pointer;
+  border: .5em solid black;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#cat-info {
+  display: none;
+}
+
+#dog-info {
+  display: none;
+}
