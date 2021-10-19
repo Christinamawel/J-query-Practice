@@ -21,3 +21,13 @@ img:hover {
 #dog-info {
   display: none;
 }
+
+.light-mode {
+  background-color:aliceblue;
+  color:black;
+}
+
+.dark-mode{
+  background-color:rgb(41, 41, 41);
+  color: white;
+}
